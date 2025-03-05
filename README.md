@@ -74,11 +74,10 @@ Key features of the plugin include:
 **Status Feedback:**  
 **• Success:** If WhatsApp launches successfully, the plugin notifies the app via a callback, enabling the user to proceed with verification.  
 
-**• Failure:** If WhatsApp fails to launch, the plugin notifies the app of the failure, prompting an error message to the user (e.g., "Failed to launch WhatsApp").  
+**• Failure:** If WhatsApp fails to launch, the plugin notifies the app and prompts the user with an error message (e.g., "Failed to launch WhatsApp").  
 
-![Sending Whatsapp verification](https://github.com/user-attachments/assets/52aa634d-65ce-4f02-a505-7a67a91dbf92)
+ ![Sending Whatsapp verification](https://github.com/user-attachments/assets/013228c9-5fb9-428f-8389-6d05edcec18e)
 
- 
 
 **5. Code Explanation**
 
@@ -87,7 +86,8 @@ Here’s a detailed explanation of the key components, their architecture, and f
 
 **5.1 Plugin Structure:**
 
-The plugin follows a layered architecture, separating concerns into distinct modules for services, handlers, and DTOs. This modularity ensures that each component can be developed, tested, and maintained independently.  
+The plugin follows a layered architecture, separating concerns into distinct modules for services, handlers, and DTOs. This modularity ensures that each component can be developed, tested, and maintained indepen![Sending Whatsapp verification](https://github.com/user-attachments/assets/67148865-24fe-46da-ae26-36ea34d0b948)
+dently.  
 
 **5.1.1 Core Classes:**
 
