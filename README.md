@@ -194,6 +194,8 @@ Integrating the WhatsApp-based Verification plugin into your Flutter application
 First, add uses-Permissions to your AndroidManifest.xml file:  
 
  ![Picture10](https://github.com/user-attachments/assets/f212fecc-58bf-4a85-9a68-e8d79312da38)
+ ![snippet](https://github.com/user-attachments/assets/bdef2579-2911-470a-a159-bebce3a0af3e)
+
 
 
 **Step 2: Add Dependency:**  
