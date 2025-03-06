@@ -1,7 +1,17 @@
 ## WhatsApp-OTP-SSO
 
+WhatsApp OTP SSO enables seamless phone number verification via WhatsApp without requiring a PIN. A predefined code is generated in-memory within the mobile app, then users are redirected to WhatsApp to send it. The code is later validated by the backend API, ensuring secure and hassle-free authentication.
 
-WhatsApp OTP SSO enables seamless phone number verification via WhatsApp without requiring a PIN. A predefined code is generated in memory within the mobile app, then users are redirected to WhatsApp to send it. The code is later validated by the backend API, ensuring secure and hassle-free authentication.
+**For proceed your mobile app to production and take the advantage of authentication without writing any in code and seamless experience:**
+Notchnco will responsible for creating whatsapp potofolio with needed data and process
+Notchnco will make all needed integration with whatsapp and send pure data to client backend api server to server integration
+Notchnco will support you team frontend and backend in integration in case needed as all description found here
+Client will provide Notchnco with API to receive the following:
+  * Mobile number sent the mobile message from meta using server to server integration accoringly it is fully secured
+  * the message passed from mobile app accoring mobile app backend api can create token and sent it to mobile app sent this message 
+
+You could get the needed proposal by sending mail to shady.hany@notch-nco.com
+
 
 ## High-Level Flow 
 
@@ -13,29 +23,14 @@ With a simple API and platform abstraction, you can focus on building core app f
 **Plugin input parameters from the mobile app developer:**
 
   [message]: The verification message will be sent to the WhatsApp phone number from your app through whatsapp_based_verification.  
-  [phoneNumber]: The recipient's phone number.    
+  [phoneNumber]: The business WhatsApp phone number.  
   [callback]: A callback function to handle the result of the message operation.  
 
-**For more information or if you need any support, please communicate via email:**
+**For more information or if you need any support or proposal, please communicate via email: shady.hany@notch-nco.com **
 
 ## Technical Details
 
-**1. Introduction**
-
-The Content-Based Verification plugin streamlines the process of integrating WhatsApp-based verification into Flutter apps.  
-It abstracts platform-specific complexities, enabling seamless sending of verification codes via WhatsApp while you focus on delivering your app's core functionalities.  
-By leveraging WhatsApp, this plugin helps reduce reliance on traditional SMS, lowering costs and enhancing user experience.  
-It ensures efficient delivery of OTPs directly to the user's WhatsApp account, making it a cost-effective and user-friendly solution for modern verification workflows.  
-
-
-**1.1 Scope of Work**
-	
-This solution leverages WhatsApp to optimize phone number verification costs, eliminating the need for traditional SMS and reducing expenses for OTP services and international messaging.  
-It ensures efficient, free delivery of verification codes for both businesses and users, eliminating resource wastage and enabling enterprises to maintain a sustainable and modern verification strategy.  
-As the service is free, it creates a cost-neutral solution for all parties involved, seamlessly integrating into existing systems to enhance user experience.
-
-
-**2. Purpose of the Plugin**
+**1. Purpose of the Plugin**
 
 The WhatsApp Verification plugin simplifies the integration of WhatsApp-based OTP verification in Flutter apps, enabling businesses to implement a modern solution.  
 
@@ -47,7 +42,7 @@ It is designed to:
 
 
 
-**3. Core Capabilities**
+**2. Core Capabilities**
 
 Key features of the plugin include:  
 • WhatsApp Integration: Seamlessly launches the native WhatsApp app with a pre-filled verification message, ensuring secure user interaction and protecting data.  
@@ -58,7 +53,7 @@ Key features of the plugin include:
 
 
 
-**4. Plugin Diagram**
+**3. Plugin Diagram**
 
 **Message Generation:**  
 • The plugin generates a pre-filled WhatsApp verification message, using the (WhatsAppUrlGenerator) class. This ensures the message includes all necessary information (e.g., OTP or verification code).  
@@ -79,7 +74,7 @@ Key features of the plugin include:
  ![Sending Whatsapp verification](https://github.com/user-attachments/assets/013228c9-5fb9-428f-8389-6d05edcec18e)
 
 
-**5. Code Explanation**
+**4. Code Explanation**
 
 The WhatsApp Verification plugin is structured to deliver a clean, organized, and modular approach to handling WhatsApp-based OTP verification in Flutter applications.  
 Here’s a detailed explanation of the key components, their architecture, and functionalities included in the codebase:  
