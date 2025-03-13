@@ -33,7 +33,7 @@ With a simple API and platform abstraction, you can focus on building core app f
   [phoneNumber]: The business WhatsApp phone number.  
   [callback]: A callback function to handle the result of the message operation.  
 
-**For more information or if you need any support or proposal, please communicate via email: shady.hany@notch-nco.com **
+**For more information or if you need any support or proposal, please communicate via email: shady.hany@notch-nco.com**
 
 ## Technical Details
 
