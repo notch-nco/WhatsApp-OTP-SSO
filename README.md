@@ -1,22 +1,23 @@
 ## WhatsApp-OTP-SSO
 
-**WhatsApp OTP SSO: Seamless Authentication Without a PIN**
+**WhatsApp OTP SSO: Seamless Authentication Without a PIN**  
 
-WhatsApp OTP SSO enables effortless phone number verification via WhatsApp without requiring a PIN. A unique code is generated in-memory within the mobile app, and users are redirected to WhatsApp to send it. The backend API then validates the code, ensuring a secure and seamless authentication process.
+WhatsApp OTP SSO enables effortless phone number verification via WhatsApp without requiring a PIN. A unique code is generated in-memory within the mobile app, and users are redirected to WhatsApp to send it. The backend API then validates the code, ensuring a secure and seamless authentication process.  
 
-Effortless Integration for Your Mobile App
+Effortless Integration for Your Mobile App  
 To launch your mobile app in production with WhatsApp-based authentication—without writing any code—Notchnco handles the entire process, including:
 
-**WhatsApp Portfolio Setup:** Creating and configuring the necessary WhatsApp business profile and settings.
-**Full WhatsApp Integration:** Managing all API integrations and ensuring secure, server-to-server data transmission to your backend.
-**Technical Support:** Assisting both frontend and backend teams in implementing the integration as per the provided documentation.
+**WhatsApp Portfolio Setup:** Creating and configuring the necessary WhatsApp business profile and settings.  
+**Full WhatsApp Integration:** Managing all API integrations and ensuring secure, server-to-server data transmission to your backend.  
+**Technical Support:** Assisting both frontend and backend teams in implementing the integration as per the provided documentation.  
 
-Client Requirements
-Clients need to provide an API endpoint to receive the following data securely via Meta’s server-to-server integration:
+Client Requirements  
+Clients need to provide an API endpoint to receive the following data securely via Meta’s server-to-server integration:  
 
-Mobile number used to send the authentication message.
-Verification message passed through the mobile app, allowing the backend to generate a token and send it back to the app.
-For a detailed proposal, email shady.hany@notch-nco.com.
+Mobile number used to send the authentication message.  
+Verification message passed through the mobile app, allowing the backend to generate a token and send it back to the app.  
+  
+For a detailed proposal, email shady.hany@notch-nco.com.  
 
 
 ## High-Level Flow 
