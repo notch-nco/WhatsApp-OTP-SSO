@@ -1,16 +1,22 @@
 ## WhatsApp-OTP-SSO
 
-WhatsApp OTP SSO enables seamless phone number verification via WhatsApp without requiring a PIN. A predefined code is generated in-memory within the mobile app, then users are redirected to WhatsApp to send it. The code is later validated by the backend API, ensuring secure and hassle-free authentication.
+**WhatsApp OTP SSO: Seamless Authentication Without a PIN**
 
-**For proceed your mobile app to production and take the advantage of authentication without writing any in code and seamless experience:**
-Notchnco will responsible for creating whatsapp potofolio with needed data and process
-Notchnco will make all needed integration with whatsapp and send pure data to client backend api server to server integration
-Notchnco will support you team frontend and backend in integration in case needed as all description found here
-Client will provide Notchnco with API to receive the following:
-  * Mobile number sent the mobile message from meta using server to server integration accoringly it is fully secured
-  * the message passed from mobile app accoring mobile app backend api can create token and sent it to mobile app sent this message 
+WhatsApp OTP SSO enables effortless phone number verification via WhatsApp without requiring a PIN. A unique code is generated in-memory within the mobile app, and users are redirected to WhatsApp to send it. The backend API then validates the code, ensuring a secure and seamless authentication process.
 
-You could get the needed proposal by sending mail to shady.hany@notch-nco.com
+Effortless Integration for Your Mobile App
+To launch your mobile app in production with WhatsApp-based authentication—without writing any code—Notchnco handles the entire process, including:
+
+**WhatsApp Portfolio Setup:** Creating and configuring the necessary WhatsApp business profile and settings.
+**Full WhatsApp Integration:** Managing all API integrations and ensuring secure, server-to-server data transmission to your backend.
+**Technical Support:** Assisting both frontend and backend teams in implementing the integration as per the provided documentation.
+
+Client Requirements
+Clients need to provide an API endpoint to receive the following data securely via Meta’s server-to-server integration:
+
+Mobile number used to send the authentication message.
+Verification message passed through the mobile app, allowing the backend to generate a token and send it back to the app.
+For a detailed proposal, email shady.hany@notch-nco.com.
 
 
 ## High-Level Flow 
